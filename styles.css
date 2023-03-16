@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	background: yellow;
+}
+.head span{
+	margin-top: 30px;
+	font-size: 20px
+}
+.moviePic{
+	height: 180px;
+	width: 200px;
+	opasity: 0.5;
+}
+.movieDetail{
+	position: absolute;
+	top: 80%;
+	font-size: 15px;
+	color: darkgray;
+	text-align: center;
+	width: 400px;
+}
